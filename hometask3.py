@@ -16,8 +16,6 @@ def show_sequence(n):
         result = str + " = " + str
     return result
 
-
-
 # Task 3
 # https://www.codewars.com/kata/reverser
 def reverse(n):
