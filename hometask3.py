@@ -1,20 +1,24 @@
 # Task 1
 # https://www.codewars.com/kata/polynomials-i-string-format
 
-
 # Task 2
 # https://www.codewars.com/kata/sum-of-numbers-from-0-to-n
 def show_sequence(n):
-    str = "0"
     if n == 0:
         result = "0=0"
-    if n < 0:
-        result = "str(n)<0"
-    if n > 0:
-        i +=1
-        str = str + "+" + str(i)
-        result = str + " = " + str
+    elif n < 0:
+        result = str(n) + "<0"
+    else:
+        summ = 0
+        line = ""
+        for i in range(n+1):
+            summ += i
+            line += str(i) + "+"
+        result = line[0:-1] + " = " + str(summ)
     return result
+print(show_sequence(5))
+print(show_sequence(0))
+print(show_sequence(-10))
 
 # Task 3
 # https://www.codewars.com/kata/reverser
@@ -26,8 +30,6 @@ def reverse(n):
 # Task 4
 # https://www.codewars.com/kata/plotting-points-on-a-grid
 
-
 # Task 5
 # https://www.codewars.com/kata/a-disguised-sequence-i
-
 
