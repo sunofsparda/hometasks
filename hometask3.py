@@ -1,5 +1,15 @@
 # Task 1
 # https://www.codewars.com/kata/polynomials-i-string-format
+import ast
+def calc_pol(pol_str, x = None):
+    if x == None: return "There is no value for x"
+    res = eval(pol_str)
+    if res == 0:
+        return "Result = {}, so {} is a root of {}".format(res, x, pol_str)
+    return "Result = {}".format(res)
+print(calc_pol("5*x+x",0))
+print(calc_pol("5*x+x",5))
+print(calc_pol("5*x+x"))
 
 # Task 2
 # https://www.codewars.com/kata/sum-of-numbers-from-0-to-n
