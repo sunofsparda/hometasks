@@ -42,4 +42,6 @@ def reverse(n):
 
 # Task 5
 # https://www.codewars.com/kata/a-disguised-sequence-i
+def fcn (n):
+    return 2**n
 
