@@ -1,2 +1,2 @@
 # Hometasks for Python Devops 2017
-https://www.codewars.com/users/sunofsparda
+[sunofsparda@codewars.com](https://www.codewars.com/users/sunofsparda)
