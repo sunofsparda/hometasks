@@ -2,13 +2,13 @@
 
 [sunofsparda@codewars.com](https://www.codewars.com/users/sunofsparda) ![alt text][logo] 
 
-[logo]: https://www.codewars.com/assets/logos/logo-square-red-big-dc2f35502ee2b60882a41327c529521c.png
+[logo]: https://avatars-05.gitter.im/group/iv/3/57542cb4c43b8c6019775c57
 
 
-[<img src="http://thailore.com/images/content/works/logo.jpg">](https://www.codewars.com/users/sunofsparda)
+[<img src="https://avatars-05.gitter.im/group/iv/3/57542cb4c43b8c6019775c57">](https://www.codewars.com/users/sunofsparda)
 
 
-[![Foo](http://thailore.com/images/content/works/logo.jpg)](https://www.codewars.com/users/sunofsparda)
+[![Foo](https://avatars-05.gitter.im/group/iv/3/57542cb4c43b8c6019775c57)](https://www.codewars.com/users/sunofsparda)
 
 
-<a href="https://www.codewars.com/users/sunofsparda" rel="some text">![Foo](http://thailore.com/images/content/works/logo.jpg)]</a>
+<a href="https://www.codewars.com/users/sunofsparda" rel="some text">![Foo](https://avatars-05.gitter.im/group/iv/3/57542cb4c43b8c6019775c57)]</a>
