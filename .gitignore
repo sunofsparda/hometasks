@@ -1,2 +1,6 @@
 # Pycharm Files
 .idea/
+
+# Monitoring logs
+/monitoring/status_log
+/monitoring/status_log.json
