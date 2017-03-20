@@ -55,6 +55,8 @@ print(poke1.info())
 
 # Task 3
 # https://www.codewars.com/kata/anything
+
+
 class anything(object):
     def __init__(self, x):
         pass
