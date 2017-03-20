@@ -1,6 +1,10 @@
 # Task 1
 # https://www.codewars.com/kata/polynomials-i-string-format
+
+
 import ast
+
+
 def calc_pol(pol_str, x = None):
     if x == None: return "There is no value for x"
     res = eval(pol_str)
@@ -13,6 +17,8 @@ print(calc_pol("5*x+x"))
 
 # Task 2
 # https://www.codewars.com/kata/sum-of-numbers-from-0-to-n
+
+
 def show_sequence(n):
     if n == 0:
         result = "0=0"
@@ -32,6 +38,8 @@ print(show_sequence(-10))
 
 # Task 3
 # https://www.codewars.com/kata/reverser
+
+
 def reverse(n):
     """Returns n with all digits reversed. Assume positive n."""
     i = str(n)
@@ -40,8 +48,31 @@ def reverse(n):
 # Task 4
 # https://www.codewars.com/kata/plotting-points-on-a-grid
 
+
+class Grid:
+    def __init__(self, width, height):
+        self.grid = ""
+        self.wid = width
+        for _ in range(height):
+            self.grid += ("0" * width + "\n")
+        self.grid = self.grid[:-1]
+
+    def plot_point(self, x, y):
+        mylist = list(self.grid)
+        x -= 1
+        y -= 1
+        mylist[y * (int(self.wid) + 1) + x] = "X"
+        self.grid = ''.join(mylist)
+        print(self.grid)
+
+    def __repr__(self):
+        pass
+test1 = Grid(10, 10)
+test1.plot_point(8, 5)
+
 # Task 5
 # https://www.codewars.com/kata/a-disguised-sequence-i
+
+
 def fcn (n):
     return 2**n
-
