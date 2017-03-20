@@ -1,9 +1,9 @@
 # monitoring configuration file
 
-interval = 5    # seconds
-out_file = "json"   # json/text
+interval = 5    # time in seconds
+log_type = "text"   # "text" or "json"
 
-if out_file == "json":
+if log_type == "json":
     file_name = "status_log.json"
-elif out_file == "text":
+elif log_type == "text":
     file_name = "status_log"
